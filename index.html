@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Weatherio</title>
+  </head>
+  <body>
+    <div class="block">
+      <div class="weather-block">
+        <div class="location"></div>
+        <img src="" alt="" class="weatherImg center" />
+        <div class="center">The temperature is:</div>
+        <div class="center">It feels like:</div>
+        <div class="currentTemp temp"></div>
+        <div class="feelTemp temp"></div>
+        <div class="unit center">°C</div>
+      </div>
+    </div>
+    <div class="block">
+      <div class="location-block">
+        <div class="form">
+          <input type="text" id="inputCity" />
+          <button class="searchCity">Search</button>
+          <button class="switchUnit">Switch Units</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
