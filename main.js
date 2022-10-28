@@ -7,7 +7,7 @@
       s = document.querySelector(".feelTemp");
     "Err" != c
       ? ((o.innerHTML = `${e}`),
-        (i.src = `http://openweathermap.org/img/wn/${t}@2x.png`),
+        (i.src = `https://openweathermap.org/img/wn/${t}@2x.png`),
         (a.innerHTML = `${r}`),
         (s.innerHTML = `${n}`))
       : ((o.innerHTML = "Mars"),
@@ -56,7 +56,7 @@
     const n = document.querySelector(".unit");
     try {
       const c = await fetch(
-          `http://api.openweathermap.org/data/2.5/weather?q=${r}&APPID=9947ddc949075bc27c00522567cb5785`
+          `https://api.openweathermap.org/data/2.5/weather?q=${r}&APPID=9947ddc949075bc27c00522567cb5785`
         ),
         t = await c.json(),
         o = t.weather[0].main,
