@@ -56,7 +56,7 @@
     const n = document.querySelector(".unit");
     try {
       const c = await fetch(
-          `http://api.openweathermap.org/data/2.5/weather?q=${r}&APPID=9947ddc949075bc27c00522567cb5785`
+          `https://api.openweathermap.org/data/2.5/weather?q=${r}&APPID=9947ddc949075bc27c00522567cb5785`
         ),
         t = await c.json(),
         o = t.weather[0].main,
